@@ -1,0 +1,12 @@
+server.port=8002
+spring.application.name=spring-cloud-config-server
+spring.cloud.config.server.git.uri=https://github.com/ityouknow/spring-cloud-starter/
+spring.cloud.config.server.git.search-paths=config-repo
+spring.cloud.config.server.git.username=liuwei
+spring.cloud.config.server.git.password=123123@#
+spring.rabbitmq.host=localhost
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=admin
+spring.rabbitmq.password=123456
+eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
+management.security.enabled=false
