@@ -15,7 +15,7 @@ spring:
       server:
         git:
           password: lw346932601@#
-          search-paths: config-server
+          search-paths: config-repo
           uri: https://github.com/lw20160709/springcloud-mall/
           username: lw20160709
   rabbitmq:
