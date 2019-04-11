@@ -1,0 +1,19 @@
+#Eruka manager
+http://localhost:8000/
+http://localhost:8001/
+
+#Config Server mangager
+http://localhost:8002/mall-config/dev
+http://localhost:8003/mall-config/dev
+
+#rabbit_mq
+#安装
+1.安装Erlang
+2.安装RabbitMQ
+3.配置
+    开启插件 sbin\rabbitmq-plugins.bat enable rabbitmq_management
+    重启（需管理员权限）  net stop RabbitMQ && net start RabbitMQ
+    查看用户 rabbitmqctl.bat list_users
+    新增用户 rabbitmqctl.bat add_user username password
+    配置用户为超级管理员(角色) rabbitmqctl.bat set_user_tags username administrator
+    配置用户权限  rabbitmqctl  set_permissions -p /  user_admin '.*' '.*' '.*'
