@@ -1,0 +1,25 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+management:
+  security:
+    enabled: false
+server:
+  port: 8002
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          password: lw346932601@#
+          search-paths: config-server
+          uri: https://github.com/lw20160709/springcloud-mall/
+          username: lw20160709
+  rabbitmq:
+    host: localhost
+    password: 123123@#
+    port: 5672
+    username: liuwei

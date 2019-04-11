@@ -18,6 +18,7 @@
         <module>business</module>
         <module>back-web</module>
         <module>portal-web</module>
+        <module>config-repo</module>
     </modules>
 
     <properties>
