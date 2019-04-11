@@ -7,7 +7,4 @@
 *.iml
 out
 gen
-/back-web/README.md
-/back-web/.gitignore
-/back-web/.hgignore
 /eurka-server/dependency-reduced-pom.xml
